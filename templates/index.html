@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d19">
+  <meta name="description" content="Ethan Tech is a software and web developer in Kenya building modern websites, business systems and applications with Python, React, Flask, Flutter and Kotlin.">
+  <meta name="keywords" content="Ethan Tech, Ethan Tech portfolio, Ethan Tech developer, software developer Kenya, web developer Kenya, Python developer, React developer, Flask, Flutter, Kotlin">
+  <meta name="author" content="Ethan Tech">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ethan Tech | Software & Web Developer in Kenya">
+  <meta property="og:description" content="Explore Ethan Tech's software projects, development skills and digital solutions.">
+  <meta property="og:site_name" content="Ethan Tech">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}">
+  <link rel="canonical" href="{{ request.url_root }}">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ethan Tech",
+    "jobTitle": "Software and Web Developer",
+    "email": "mailto:ethantech17@gmail.com",
+    "telephone": "+254705911157",
+    "url": "{{ request.url_root }}",
+    "sameAs": ["https://www.linkedin.com/in/ethan-tech-5b4b39445/"],
+    "knowsAbout": ["Software Development", "Web Development", "Python", "React", "Flask", "Flutter", "Kotlin", "Databases"]
+  }
+  </script>
+  <title>Ethan Tech | Software & Web Developer in Kenya</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="progress" id="progress"></div>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home"><span class="brand-mark">E<span>.</span></span><span>ETHAN<span class="brand-muted">TECH</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+        <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-grid"></div><div class="orb orb-one"></div><div class="orb orb-two"></div>
+      <div class="hero-copy reveal">
+        <div class="availability"><span class="pulse"></span> AVAILABLE FOR OPPORTUNITIES</div>
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Ethan<span class="gradient-text"> Tech.</span></h1>
+        <div class="role-line">I build <span id="typedRole">digital experiences</span><span class="caret">|</span></div>
+        <p class="hero-intro">A software and web developer passionate about turning ideas into useful, beautifully designed digital products.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="social-proof"><span class="mini-line"></span><span>DESIGN · DEVELOPMENT · INNOVATION</span></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="visual-ring ring-a"></div><div class="visual-ring ring-b"></div>
+        <div class="code-card">
+          <div class="code-top"><div class="dots"><i></i><i></i><i></i></div><span>ethan.py</span><span class="code-lock">⌘</span></div>
+          <div class="code-body">
+            <div><span class="ln">01</span><span class="code-purple">class</span> <span class="code-blue">Developer</span>:</div>
+            <div><span class="ln">02</span>&nbsp;&nbsp;name = <span class="code-green">"Ethan Tech"</span></div>
+            <div><span class="ln">03</span>&nbsp;&nbsp;passion = <span class="code-green">"Building"</span></div>
+            <div><span class="ln">04</span>&nbsp;&nbsp;skills = [</div>
+            <div><span class="ln">05</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"Python"</span>, <span class="code-green">"React"</span>,</div>
+            <div><span class="ln">06</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"Flutter"</span>, <span class="code-green">"Flask"</span></div>
+            <div><span class="ln">07</span>&nbsp;&nbsp;]</div>
+            <div><span class="ln">08</span>&nbsp;&nbsp;<span class="code-purple">def</span> <span class="code-yellow">create</span>(self):</div>
+            <div><span class="ln">09</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-purple">return</span> <span class="code-green">"What's next?"</span><span class="blink">_</span></div>
+          </div>
+          <div class="code-bottom"><span><i class="status-dot"></i> SYSTEM ONLINE</span><span>KENYA · EAT</span></div>
+        </div>
+        <div class="float-chip chip-one"><span class="chip-icon">✦</span> Creative problem solver</div>
+        <div class="float-chip chip-two"><span class="chip-icon">⌘</span> Full-stack mindset</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">01 / ABOUT ME</p><h2>Technology with <span class="gradient-text">purpose.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy reveal"><p class="lead">I’m Ethan — a developer who enjoys building technology that solves real-world problems.</p><p>I work across web and software development, combining practical engineering with clean, user-friendly design. From business systems to interactive websites, I enjoy taking an idea from concept to a working product.</p><p>My approach is simple: understand the problem, build with purpose, and keep improving.</p><a class="text-link" href="https://www.linkedin.com/in/ethan-tech-5b4b39445/" target="_blank" rel="noreferrer">Connect on LinkedIn <span>↗</span></a></div>
+        <div class="stats-grid reveal"><div class="stat"><strong>01<span>+</span></strong><small>Curiosity for every challenge</small></div><div class="stat"><strong>∞</strong><small>Ideas worth building</small></div><div class="stat"><strong>24/7</strong><small>Always learning</small></div><div class="stat"><strong>100<span>%</span></strong><small>Commitment to growth</small></div></div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills"><div class="container">
+      <div class="section-heading reveal"><p class="eyebrow">02 / WHAT I DO</p><h2>Tools I use to bring<br><span class="gradient-text">ideas to life.</span></h2></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-symbol">⌘</div><h3>Web Development</h3><p>Responsive websites and web applications built around usability and performance.</p><div class="tags"><span>HTML/CSS</span><span>JavaScript</span><span>React</span></div></article>
+        <article class="skill-card reveal"><div class="skill-symbol">⌁</div><h3>Backend & APIs</h3><p>Application logic, integrations, database-backed workflows and reliable services.</p><div class="tags"><span>Python</span><span>Flask</span><span>REST APIs</span></div></article>
+        <article class="skill-card reveal"><div class="skill-symbol">▣</div><h3>App Development</h3><p>Exploring cross-platform and native mobile experiences for everyday needs.</p><div class="tags"><span>Flutter</span><span>Dart</span><span>Kotlin</span></div></article>
+        <article class="skill-card reveal"><div class="skill-symbol">◈</div><h3>Systems & Data</h3><p>Practical business systems, data management and workflow automation.</p><div class="tags"><span>SQL</span><span>SQLite</span><span>Git</span></div></article>
+      </div>
+    </div></section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading reveal"><p class="eyebrow">03 / SELECTED WORK</p><h2>Ideas turned into <span class="gradient-text">projects.</span></h2><p class="section-sub">A selection of concepts and products I have been working on.</p></div>
+      <div class="projects-grid">
+        <article class="project-card project-feature reveal"><div class="project-art art-blue"><div class="mock-window"><div class="mock-bar"><i></i><i></i><i></i></div><div class="mock-content"><div class="mock-sidebar"></div><div class="mock-panels"><b></b><b></b><b></b><div class="mock-chart"></div></div></div></div><span class="art-label">01 / BUSINESS SOFTWARE</span></div><div class="project-info"><div><p class="project-type">INVENTORY · SALES · REPORTING</p><h3>SolarOption Stock System</h3><p>A desktop-focused stock management concept for product tracking, sales workflows and reporting.</p></div><span class="project-arrow">↗</span></div></article>
+        <article class="project-card reveal"><div class="project-art art-violet"><div class="school-graphic"><span>SC</span><i>✦</i><b>SchoolConnect</b><small>Learning · Connected</small></div><span class="art-label">02 / EDUCATION</span></div><div class="project-info"><div><p class="project-type">SCHOOL MANAGEMENT</p><h3>SchoolConnect</h3><p>A school communication and management app concept for parents and schools.</p></div><span class="project-arrow">↗</span></div></article>
+        <article class="project-card reveal"><div class="project-art art-green"><div class="terminal-graphic"><span>JARVIS</span><small>▮ Voice assistant ready</small><div class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><span class="art-label">03 / AUTOMATION</span></div><div class="project-info"><div><p class="project-type">DESKTOP · VOICE ASSISTANT</p><h3>JARVIS AI Assistant</h3><p>A Windows desktop assistant concept combining voice interaction and productivity tools.</p></div><span class="project-arrow">↗</span></div></article>
+        <article class="project-card reveal"><div class="project-art art-orange"><div class="queue-graphic"><div class="queue-number">A<span>024</span></div><div class="queue-lines"><i></i><i></i><i></i></div></div><span class="art-label">04 / CUSTOMER EXPERIENCE</span></div><div class="project-info"><div><p class="project-type">QUEUE MANAGEMENT</p><h3>EasyWait</h3><p>A queue management platform concept designed to make waiting and service flow easier.</p></div><span class="project-arrow">↗</span></div></article>
+      </div>
+    </section>
+
+    <section class="cta-band"><div class="container cta-inner reveal"><div><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let's build something<br><span class="gradient-text">meaningful.</span></h2></div><a class="btn btn-primary" href="#contact">Start a conversation <span>↗</span></a></div></section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="section-heading reveal"><p class="eyebrow">04 / GET IN TOUCH</p><h2>Have a good idea?<br><span class="gradient-text">Let's talk.</span></h2><p class="section-sub">For opportunities, collaborations or project enquiries, send me a message.</p></div>
+      <div class="contact-grid">
+        <div class="contact-details reveal"><a class="contact-item" href="mailto:ethantech17@gmail.com"><span class="contact-icon">✉</span><span><small>EMAIL ME</small><b>ethantech17@gmail.com</b></span><span class="item-arrow">↗</span></a><a class="contact-item" href="https://wa.me/254705911157" target="_blank" rel="noreferrer"><span class="contact-icon">◉</span><span><small>WHATSAPP</small><b>+254 705 911 157</b></span><span class="item-arrow">↗</span></a><a class="contact-item" href="https://www.linkedin.com/in/ethan-tech-5b4b39445/" target="_blank" rel="noreferrer"><span class="contact-icon">in</span><span><small>LINKEDIN</small><b>Connect with me</b></span><span class="item-arrow">↗</span></a><div class="contact-note"><span class="pulse"></span> Usually responds as soon as possible.</div></div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-row"><label>Your name<input name="name" placeholder="Jane Doe" required maxlength="100"></label><label>Your email<input type="email" name="email" placeholder="jane@example.com" required maxlength="254"></label></div>
+          <label>Subject<input name="subject" placeholder="Project enquiry" maxlength="160"></label>
+          <label>Your message<textarea name="message" rows="5" placeholder="Tell me a little about what you have in mind..." required maxlength="5000"></textarea></label>
+          <button class="btn btn-primary submit-btn" type="submit"><span>Send message</span><span>↗</span></button><p class="form-status" id="formStatus" role="status"></p>
+          <small class="privacy-note">Your message is sent directly to Ethan's inbox. Your email is only used to reply.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">E<span>.</span></span><span>ETHAN<span class="brand-muted">TECH</span></span></a><p>Building useful things for a digital world.</p><span>© <span id="year"></span> Ethan Tech</span></div></footer>
+
+  <a class="whatsapp-float" href="https://wa.me/254705911157?text=Hello%20Ethan%2C%20I%20visited%20your%20portfolio." target="_blank" rel="noreferrer" aria-label="Chat with Ethan on WhatsApp"><span>◉</span><b>Let's chat</b></a>
+
+  <div class="chat-widget" id="chatWidget">
+    <div class="chat-panel" id="chatPanel" aria-hidden="true">
+      <div class="chat-head"><div class="bot-avatar">E<span>.</span></div><div><b>Ethan Tech Assistant</b><small><i></i> Online · Portfolio guide</small></div><button id="chatClose" aria-label="Close chat">×</button></div>
+      <div class="chat-messages" id="chatMessages"><div class="bot-message">Hey there! 👋 I'm Ethan's portfolio assistant. What would you like to know?</div><div class="quick-questions"><button data-question="What skills does Ethan have?">Skills</button><button data-question="Tell me about the projects">Projects</button><button data-question="How can I contact Ethan?">Contact</button></div></div>
+      <form id="chatForm" class="chat-input"><input id="chatInput" placeholder="Ask me something..." autocomplete="off" aria-label="Ask the portfolio assistant"><button aria-label="Send message">↑</button></form>
+    </div>
+    <button class="chat-launch" id="chatLaunch" aria-label="Open portfolio assistant"><span>✦</span><i></i></button>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
