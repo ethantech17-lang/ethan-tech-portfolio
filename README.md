@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ethan Tech Personal Portfolio
 
 A responsive, animated Flask portfolio for Ethan Tech. Includes project showcase, skills, WhatsApp link, LinkedIn link, FAQ-style portfolio assistant and an email contact form.
@@ -82,3 +83,6 @@ After deploying this version, open that exact URL in a browser. It should displa
 `google-site-verification: googlee03837756975f3c6.html`
 
 Then return to Google Search Console and click **Verify** for the matching URL-prefix property. Do not rename or edit the verification file. Keep the verification route and file in the project after verification so Google can re-check ownership.
+=======
+# ethan-tech-portfolio
+>>>>>>> 39b33fc89f76009189ea9f1ecbb6702efd089fb9
